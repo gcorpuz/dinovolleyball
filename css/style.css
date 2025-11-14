@@ -228,6 +228,70 @@ html {
     padding-inline: var(--unit-s);
 }
 
+/* SCHEDULE */
+.schedule-item {
+    background: #f8f6e3; /* pale bar */
+    border-radius: 25px;
+    margin: 24px 0;
+    padding: 16px 32px;
+    font-size: 1.15em;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 32px;  
+    margin: 24px 0;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;  
+}
+
+.day-title {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    color: #233e64;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;  
+    letter-spacing: 2px;
+}
+
+
+.time {
+    font-weight: bold;
+    color: #233e64;
+    width: 120px;  
+    /*font-size: 1.12em;*/
+    letter-spacing: 2px;
+}
+
+.details {
+    color: #233e64;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 14px;  
+}
+
+.time {
+    font-weight: bold;
+    color: #233e64;
+    width: 128px;
+    letter-spacing: 2px;
+}
+
+.details {
+    color: #233e64;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 
 /* GRID SYSTEM (12 column) */
 
