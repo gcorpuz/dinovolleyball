@@ -576,7 +576,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* Adjust spacing as needed */
+  gap: 40px; 
 }
 
 .site-footer .one-third {
