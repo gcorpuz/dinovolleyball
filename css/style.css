@@ -568,10 +568,35 @@ section {
     padding-inline: var(--unit-s);
     background-image: url(../img/brownwall.jpg);
     text-decoration-color: var(--color-white);
-    
-
 
 }
+
+.site-footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Adjust spacing as needed */
+}
+
+.site-footer .one-third {
+  flex: 0 1 120px; /* Adjust minimum width for each logo container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* REMOVE FOOTER PADDING IF IT HAS A CONTAINER */
 .site-footer:has(.container) {
