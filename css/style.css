@@ -38,6 +38,7 @@ TABLE OF CONTENTS
     # CUSTOM PAGE LAYOUT - 2 COLUMNS: ASIDE + MAIN CONTENT
     # STICKYBOX
     # NMA TYPE BLOCK
+    # PAPER
 
 # ANIMATIONS
     #
@@ -247,6 +248,12 @@ html {
     grid-template-columns: 1fr 1fr;
     gap: 40px 32px;  
     margin: 24px 0;
+}
+
+@media (width < 768px) {
+    .schedule-grid{
+       grid-template-columns: 1fr; 
+    }
 }
 
 .day {
@@ -537,6 +544,7 @@ html {
 /* SITE MAIN */
 .site-main {
     background-color: transparent;
+    overflow-x: hidden;
 }
 
 /* STYLING FOR ALL SECTIONS */
@@ -749,6 +757,45 @@ body > * {
     line-height: 1.2;
 }
 
+/*PAPER*/
+.paper {
+    position: relative;
+    background-color: rgb(255 255 255 / .5);
+    padding: 5em 4em;
+}
+
+.corner-fossil {
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+}
+
+.corner-fossil-1 {
+    top: 0;
+    left: 0;
+    translate:-50% -75%;
+}
+
+.corner-fossil-2 {
+    top: 0;
+    right: 0;
+    translate: 50% -75%;
+
+}
+
+.corner-fossil-3 {
+    bottom: 0;
+    right: 0;
+    translate:50% 25%;
+
+}
+
+.corner-fossil-4 {
+    bottom: 0;
+    left: 0;
+    translate:-50% 25%;
+
+}
 
 /* ------------------
         ANIMATIONS 
