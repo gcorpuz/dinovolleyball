@@ -97,6 +97,7 @@ TABLE OF CONTENTS
     --color-hero-background: var(--color-brown-800);
     
 
+
     /* BORDERS */
     --color-border: var(--color-grey-200);
     --border-radius: 5px;
@@ -917,3 +918,49 @@ section:has(.observe-me) {
   background-color: yellow;
 }
   */
+
+
+/*INFO SECTION*/
+
+.corner-ball {
+    top: 0;
+    right: 0;
+    translate: 68% -75%;
+
+}
+
+/*SCHEDULE SECTION*/
+
+.corner-pointing-dino {
+    top: 0;
+    right: 0;
+    translate: 50% -120%;
+
+}
+
+/*REGISTRATION SECTION*/
+
+.volleyball-fossil {
+    top: 0;
+    left: 0;
+    translate: 10% -30%;
+}
+
+.footprint-1 {
+    top: 0;
+    left: 0;
+    translate: 35% -90%;
+}
+
+.footprint-2 {
+    top: 0;
+    left: 0;
+    translate: -10% -190%;
+}
+
+/*LOCATION SECTION*/
+.dinoholdingball {
+    top: 0;
+    left: 0;
+    translate: 45% -5%;
+}
