@@ -558,7 +558,7 @@ section {
     padding-block: var(--unit-3xl);
     padding-inline: var(--unit-s);
     color: var(--color-white);
-    background-image: url(../img/brownwall.jpg);
+   /* background-image: url(../img/brownwall.jpg); */
 
     h1, h2, h3 {
         color: var(--color-white);
