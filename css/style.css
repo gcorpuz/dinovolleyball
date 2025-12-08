@@ -201,6 +201,19 @@ img {
     left: -9999px;
 }
 
+@media (max-width: 767px) {
+    .hide-onsmallscreens {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        border: 2px solid red;
+
+    }
+}
+
+
+ 
+
 /* GLOBAL RESETS */
 
 /* Remove the default 8pm margin on body */
@@ -552,6 +565,7 @@ html {
 section {
     padding-block: var(--unit-2xl);
 }
+/*HERO SECTION STYLING*/
 
 .hero {
     background-color: var(--color-hero-background);
@@ -568,6 +582,10 @@ section {
 .hero:has(.container) {
     padding-inline: 0;
 }
+
+
+
+
 
 
 /* SITE FOOTER */
@@ -938,7 +956,7 @@ section:has(.observe-me) {
 
 }
 
-/*REGISTRATION SECTION*/
+/*REGISTRATION SECTION
 
 .volleyball-fossil {
     top: 0;
@@ -957,6 +975,7 @@ section:has(.observe-me) {
     left: 0;
     translate: -10% -190%;
 }
+ */
 
 /*LOCATION SECTION*/
 .dinoholdingball {
